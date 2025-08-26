@@ -13,7 +13,7 @@ public class second {
             arr[i] = sc.nextInt();
         }
 
-        // Remove duplicates
+   
         int newSize = 0;
         for (int i = 0; i < n; i++) {
             boolean duplicate = false;
@@ -29,12 +29,12 @@ public class second {
             }
         }
 
-        // Display result
         System.out.println("Array after removing duplicates:");
         for (int i = 0; i < newSize; i++) {
             System.out.print(arr[i] + " ");
         }
     }
 }
+
 
 
